@@ -1,0 +1,111 @@
+body{
+    font-family:Arial, sans-serif sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    background-position: right  center ;
+    background-size: cover; /*mostra a imagem inteira mesmo que esconda um pedacinho */
+    height: 500px;
+    border-top: 1px solid transparent;
+
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px 2px #333; /*3px horinzontal(direita),3px vertical(baixo), 5px (esfumaçamento).*/
+}
+.hero-content p{
+    display: inline-block;
+    background-color: rgb(0 0 0 / 55%);
+    padding: 20px;  
+    border-bottom: 2px solid white;
+  } 
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+    
+   
+}
+.hero nav a{
+
+    display: block;
+    padding: 15px;
+    background: rgba(0 0 0 / 21%);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px ;
+
+}
+.hero nav a:hover{
+    background:rgba(0,0,0,0.5); 
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+background-color: white;
+padding: 10px;
+margin-top: 15px;    
+overflow: auto;
+
+}
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box; 
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card p{
+    background-color:#474747;
+    color: white;
+    margin: 0;
+    padding: 14px;
+}
+.content-header{
+    border-bottom: solid 3px #ccc;
+    padding: 10px;
+    background-color: #eee;
+}
+.content-header h2{
+
+    margin: 0;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    
+}
+.rodape{
+    background-color: #6b6c68;
+    height: 80px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    /* line-height: 80px; poderia usar essa opção para centralizar o conteúdo, quando há uma linha apenas, mas ao mudar "height" deve mudar também o line height*/
+}
+.rodape p{
+    padding-top: 25px;
+}
